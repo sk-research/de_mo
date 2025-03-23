@@ -18,7 +18,7 @@ body {
 
 #search-bar input {
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #ff0000;
     border-radius: 5px;
 }
 
@@ -34,6 +34,7 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
+    
 }
 
 /* Hero Section */
