@@ -30,7 +30,7 @@ body {
 }
 
 #marketplace {
-    background-color: orange;
+    background-color: red;
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
@@ -110,7 +110,7 @@ body {
 }
 
 .register-button, .explore-button {
-    background: orange;
+    background: red;
     color: white;
     padding: 8px 12px;
     border: none;
