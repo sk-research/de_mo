@@ -97,6 +97,7 @@ body {
 /* Event Details */
 .event-details {
     padding: 15px;
+    color: white;
 }
 
 .event-title {
