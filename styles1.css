@@ -1,0 +1,144 @@
+/* 🎨 I Love RWA Branding */
+:root {
+    --primary-color: #FF1E00; /* Fiery Red */
+    --secondary-color: #020D19; /* Midnight Navy */
+    --accent-color: #F8C42B; /* Golden Yellow */
+    --background-color: #FFFFFF;
+    --text-color: #020D19;
+    --button-hover: #D01900;
+    --card-bg: #FAFAFA;
+}
+
+/* 🔹 Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔺 Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: var(--secondary-color);
+    color: white;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.search-bar {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.search-bar button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links .btn-primary {
+    background: var(--primary-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* 🔹 Blog Section */
+#blog-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* 🔄 Blog Card */
+.blog-card {
+    background: var(--card-bg);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+.blog-image {
+    background: #e0e0e0;
+    height: 180px;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-content h2 {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.tags span {
+    background: var(--accent-color);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.read-more {
+    display: block;
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background: var(--button-hover);
+}
+
+/* 🔻 Footer */
+#footer {
+    background: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
