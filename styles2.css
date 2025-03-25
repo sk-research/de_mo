@@ -1,0 +1,129 @@
+/* 🎨 Color Theme */
+:root {
+    --primary-color: #FF1E00;
+    --secondary-color: #020D19;
+    --accent-color: #F8C42B;
+    --background-color: #FFFFFF;
+    --text-color: #020D19;
+    --button-hover: #D01900;
+    --card-bg: #FAFAFA;
+}
+
+/* 🔹 Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔺 Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: var(--secondary-color);
+    color: white;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 20px;
+}
+
+/* 🔹 Asset Details */
+.asset-header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.asset-visualization {
+    background: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+}
+
+.btn-graph {
+    background: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.details-box {
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.highlighted {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-buy {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 🔹 Yield Calculator */
+#yield-calculator {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.calculator-box {
+    background: #e8ffe8;
+    padding: 20px;
+    width: 300px;
+}
+
+.crypto-price {
+    background: #e0e0e0;
+    padding: 20px;
+}
+
+.chart-box {
+    background: #d0d0d0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* 🔹 Similar Assets */
+.asset-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.asset-card {
+    background: #FFE6E6;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.btn-explore {
+    background: none;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+}
+
+/* 🔻 Footer */
+#footer {
+    background: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
