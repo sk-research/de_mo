@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Detail - I Love RWA</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <!-- 🔺 Navbar -->
+    <header id="navbar">
+        <div class="logo">
+            <h2>Website Wireframe</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">List your assets</a>
+            <a href="#" class="btn-primary">Marketplace</a>
+            <a href="#">Wallet address...</a>
+        </div>
+        <div class="menu-icon">☰</div>
+    </header>
+
+    <!-- 🔹 Asset Details Section -->
+    <section id="asset-section">
+        <div class="asset-header">
+            <div class="asset-visualization">
+                <h1>Asset Name</h1>
+                <div class="carousel">Asset Visualization</div>
+                <button class="btn-graph">View Valuation Graph</button>
+            </div>
+            <div class="asset-info">
+                <p class="asset-description">Brief asset description here...</p>
+                <p class="asset-type">Asset Type</p>
+                <div class="company-info">
+                    <p><strong>Company Name:</strong></p>
+                    <a href="#"><img src="logo.png" alt="Company Logo"></a>
+                </div>
+                <div class="details-box">
+                    <p><strong>Asset Details</strong></p>
+                    <p>Price per token: USDT 0000</p>
+                    <p>Available: 0000 / 0000 tokens</p>
+                    <p>Min Investment: Time & Amount</p>
+                    <p>Blockchain: <span>#Blockchain_Icon</span> & Token Standard: <span>#ERC-6960</span></p>
+                    <p>Smart Contract: <span>#0x000000000000000000000000000000</span></p>
+                    <p class="highlighted" onclick="scrollToCalculator()">Expected Yield: 000%</p>
+                </div>
+                <button class="btn-buy">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔹 Asset Description -->
+    <section id="asset-description">
+        <div class="tabs">
+            <button>Asset Value</button>
+            <button>Asset Information</button>
+            <button>Legal & Compliance</button>
+            <button>Governance Right</button>
+            <button>Revenue Model</button>
+            <button>Documents</button>
+        </div>
+        <div class="tab-content">
+            <p>Details about the section selected in the tab above</p>
+        </div>
+        <div class="detailed-description">
+            <h3>Detailed Asset Description ▼</h3>
+            <p>Longer description here...</p>
+        </div>
+        <div class="contract-properties">
+            <h3>Contract Properties:</h3>
+            <p>Details of the contract, token, chain, and specifics...</p>
+        </div>
+        <div class="faqs">
+            <h3>FAQs regarding the asset ▼</h3>
+            <p>Expand for FAQs...</p>
+        </div>
+    </section>
+
+    <!-- 🔹 Yield Calculator -->
+    <section id="yield-calculator">
+        <div class="calculator-box">
+            <h2>Yield Calculator</h2>
+            <p>Number of tokens purchased: ____</p>
+            <p>Price per token: USDT 0000</p>
+            <p>Expected Yield: 000%</p>
+            <p>Holding Period: ____</p>
+            <p>Expected Profit: USDT 0000</p>
+            <button class="btn-buy">Buy Now</button>
+        </div>
+        <div class="price-chart">
+            <div class="crypto-price">
+                <h3>ETH</h3>
+                <p>$1,913</p>
+                <p>-8.95%</p>
+                <small>Updated Mar 11, 03:53 PM</small>
+            </div>
+            <div class="chart-box">Graph</div>
+        </div>
+    </section>
+
+    <!-- 🔹 Similar Assets -->
+    <section id="similar-assets">
+        <h2>Similar Assets</h2>
+        <div class="asset-grid">
+            <div class="asset-card">
+                <div class="asset-img">IMAGE</div>
+                <h3>Asset Name</h3>
+                <p class="highlighted">Potential Yield</p>
+                <button class="btn-explore">Explore now</button>
+            </div>
+            <div class="asset-card">
+                <div class="asset-img">IMAGE</div>
+                <h3>Asset Name</h3>
+                <p class="highlighted">Potential Yield</p>
+                <button class="btn-explore">Explore now</button>
+            </div>
+            <div class="asset-card">
+                <div class="asset-img">IMAGE</div>
+                <h3>Asset Name</h3>
+                <p class="highlighted">Potential Yield</p>
+                <button class="btn-explore">Explore now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔻 Footer -->
+    <footer id="footer">
+        <p>FOOTER</p>
+    </footer>
+
+    <script>
+        function scrollToCalculator() {
+            document.getElementById("yield-calculator").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+</body>
+</html>
