@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+/* Community Section */
+.community {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.community h2 {
+    font-size: 24px;
+}
+
+.community p {
+    font-size: 16px;
+    color: gray;
+}
+
+.community-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.telegram {
+    background: #0088cc;
+    color: white;
+}
+
+.discord {
+    background: #5865f2;
+    color: white;
+}
+
+/* Contact Support */
+.contact-support {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-support h2 {
+    font-size: 24px;
+}
+
+.contact-support p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-support a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.twitter { color: #1DA1F2; }
+.linkedin { color: #0077b5; }
+.instagram { color: #C13584; }
+
+/* Contact Form */
+.contact-form {
+    padding: 50px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
