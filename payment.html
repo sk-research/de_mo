@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="styles3.css">
+    <script defer src="script3.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">RWA</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Wallet</a>
+        </nav>
+        <button class="wallet-btn">0xasdsef…7t9b</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1 class="page-title">Payment Page</h1>
+
+        <div class="payment-container">
+            
+            <!-- Left: Property Image -->
+            <div class="property-image">
+                <img src="house.jpg" alt="Property Image">
+            </div>
+
+            <!-- Right: Payment Details -->
+            <div class="payment-details">
+                <h2>Spacious House</h2>
+                <p class="property-location">New Delhi, India</p>
+                <p class="seller-info">Seller: <strong>RISING ESTATE</strong></p>
+
+                <div class="details-box">
+                    <div class="row"><span>Asset ID:</span> <span>04</span></div>
+                    <div class="row"><span>Token Price:</span> <span>$190,000</span></div>
+
+                    <!-- Quantity with Increment & Decrement -->
+                    <div class="row">
+                        <span>Quantity:</span>
+                        <div class="quantity-box">
+                            <button class="decrement">-</button>
+                            <input type="number" id="quantity" value="1" min="1">
+                            <button class="increment">+</button>
+                        </div>
+                    </div>
+
+                    <div class="row"><span>Subtotal:</span> <span id="subtotal">$190,000</span></div>
+
+                    <!-- Staking Period -->
+                    <div class="staking">
+                        <p>Choose Time for Staking:</p>
+                        <button class="stake-btn">3 Months</button>
+                        <button class="stake-btn">6 Months</button>
+                        <button class="stake-btn">1 Year</button>
+                        <button class="stake-btn active">2 Years</button>
+                    </div>
+
+                    <div class="row payable">
+                        <span>Payable Amount:</span> <span id="payable">$190,000</span>
+                    </div>
+
+                    <button class="pay-now">Pay Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-logo">RWA</div>
+        <div class="footer-links">
+            <a href="#">Help Center</a>
+            <a href="#">Account Info</a>
+            <a href="#">Security</a>
+            <a href="#">Terms & Privacy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
